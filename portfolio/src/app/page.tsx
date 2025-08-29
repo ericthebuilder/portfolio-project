@@ -1,6 +1,13 @@
 import Link from "next/link"
+import Head from "next/head"
 import {Github, Mail, Linkedin } from "lucide-react"
 import {FaMedium} from "react-icons/fa"
+
+export const metadata = {
+  title: "Eric Alvarez | Cloud Engineer Portfolio",
+  description: "Portfolio of Eric Alvarez - Cloud Infrastructure & DevOps Projects.",
+}
+
 const projects = [
   {
     title: "AWS Migration",
