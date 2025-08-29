@@ -1,5 +1,4 @@
 import Link from "next/link"
-import Head from "next/head"
 import {Github, Mail, Linkedin } from "lucide-react"
 import {FaMedium} from "react-icons/fa"
 
